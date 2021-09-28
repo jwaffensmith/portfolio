@@ -611,6 +611,10 @@ progress {
   height: auto;
 }
 
+.project-links {
+  color: #fff;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
