@@ -41,7 +41,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary-rgb: 74, 95, 68;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -106,6 +106,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   line-height: 1.2;
+}
+
+.skill-header {
+  font-weight: 700;
+  padding-top: 2rem;
+}
+
+.skill-title {
+  font-weight: 700;
+  padding-bottom: 1rem;
 }
 
 h1, .h1 {
@@ -5102,6 +5112,7 @@ textarea.form-control-lg {
   display: block;
   padding: 0.5rem 1rem;
   color: #212529;
+  font-weight: 700;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -11303,6 +11314,11 @@ body {
 }
 .page-section {
   padding: 8rem 0;
+}
+
+.project-header {
+  padding: 5rem 0 3rem 0;
+
 }
 
 #contact {
