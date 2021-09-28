@@ -117,6 +117,14 @@ h1, .h1 {
   }
 }
 
+#headshot {
+  width: 18em;
+  height: 18em;
+  opacity: 1;
+  margin-bottom: 1.5rem;
+  border-radius: 250px;
+}
+
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -599,7 +607,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
