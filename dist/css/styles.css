@@ -11312,9 +11312,32 @@ body {
   background-color: transparent;
   border: none;
 }
+
+
 .page-section {
   padding: 8rem 0;
 }
+
+.contact-info {
+  color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  --bs-bg-opacity: 1;
+}
+
+.contact-info:hover {
+  color: #4a5f44;
+  --bs-bg-opacity: 1;
+}
+
+/* .submit-btn {
+  background-color: #4a5f44;
+  --bs-bg-opacity: 1;
+}
+
+.submit-btn:hover {
+  background-color: gray;
+  --bs-bg-opacity: 1;
+} */
+
 
 .project-header {
   padding: 5rem 0 3rem 0;
@@ -11463,7 +11486,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(74, 95, 68, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }
