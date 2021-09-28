@@ -623,6 +623,16 @@ progress {
 
 .project-links {
   color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+.project-description {
+  padding: 1rem 0;
+}
+
+.project-tech {
+  font-weight: 700;
 }
 
 .img-thumbnail {
@@ -11529,4 +11539,8 @@ header.masthead h1, header.masthead .h1 {
     border-width: 0.25rem;
     width: 30%;
   }
+}
+
+.project-description {
+  background: rgba(74, 95, 68);
 }
