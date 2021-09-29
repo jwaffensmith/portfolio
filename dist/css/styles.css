@@ -11368,6 +11368,15 @@ body {
   border-radius: 10rem;
 }
 
+.arrow-btn {
+  padding: 2rem 3rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
@@ -11474,6 +11483,11 @@ header.masthead h1, header.masthead .h1 {
   }
 }
 
+.arrow-icon {
+    animation: bounce;
+    animation-duration: 5s; 
+    animation-iteration-count: 10;
+}
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
