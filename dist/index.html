@@ -14,9 +14,6 @@
         <link rel="icon" type="image/png" href="assets/favicomatic/favicon-32x32.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="assets/favicomatic/favicon-16x16.png" sizes="16x16" />
         <link rel="icon" type="image/png" href="assets/favicomatic/favicon-128.png" sizes="128x128" />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="Portfolio for Jenna Waffensmith, Full Stack Developer" />
@@ -27,6 +24,8 @@
         <meta name="msapplication-wide310x150logo" content="assets/favicomatic/mstile-310x150.png" />
         <meta name="msapplication-square310x310logo" content="assets/favicomatic/mstile-310x310.png" />
         <title>Jenna Waffensmith</title>
+        <!-- animation.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap Icons-->
@@ -49,9 +48,9 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link about" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link contact" href="#contact">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="assets/jenna_waffensmith_resume.pdf" target="_blank">Resume</a></li>
                     </ul>
                 </div>
@@ -79,7 +78,7 @@
                     <div class="col-lg-8 text-center">
                         <img class="img-fluid" id="headshot"src="assets/jenna2.png" alt="Developer's Photo" />
                         <h2 class="text-white mt-0">About Me</h2>
-                        <hr class="divider divider-light" />
+                        <hr class="divider about-divider divider-light" />
                         <p class="text-white-75 mb-4">Software engineer and former special education teacher with skills in full-stack development, emphasis on Javascript,
                             Python, Express, Django, PostgreSQL, and MongoDB. Passionate about problem solving, collaborating and learning.
                             Seeking opportunities to develop innovative software that makes a meaningful impact on people’s lives.</p>
@@ -149,7 +148,7 @@
             <section class="projects-section bg-light" id="projects">
                 <div class="container px-4 px-lg-5">
                     <!-- Project One Row-->
-                    <div class="row gx-0 mb-5 mb-lg-5  justify-content-center">
+                    <div class="row gx-0 mb-5 mb-lg-5 justify-content-center">
                         <div class="col-lg-6 text-center"><img class="img-fluid" src="assets/hiking-journal.png" alt="Project Photo"/></div>
                         <div class="col-lg-6">
                             <div class="text-center h-100 project">
@@ -233,7 +232,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Let's Get In Touch.</h2>
-                        <hr class="divider" />
+                        <hr class="divider contact-divider" />
                         <p class="text-muted mb-5"></p>
                     </div>
                 </div>
@@ -329,5 +328,7 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </body>
 </html>

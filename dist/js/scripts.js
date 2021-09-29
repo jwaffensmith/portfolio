@@ -51,9 +51,41 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+// jQuery for Animation.css
+// divider animation for about section
+$(function () {
+    let animationName = 'animate__animated animate__rollIn'
+    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    $('a.about.nav-link').on('click', function () {
+        $('.about-divider').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+    $('.arrow-btn').on('click', function () {
+        $('.about-divider').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+});
+
+// divider animation for contact section
+$(function () {
+    let animationName = 'animate__animated animate__rollIn'
+    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    $('.contact').on('click', function () {
+        $('.contact-divider').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+});
+
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
 
 });
+
