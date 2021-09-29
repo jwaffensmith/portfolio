@@ -1421,6 +1421,7 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+    animation-delay: .5s;
   }
 
   .col-lg-7 {
@@ -11383,6 +11384,8 @@ hr.divider {
   margin: 1.5rem auto;
   background-color: #f4623a;
   opacity: 1;
+  animation-duration: 2s;
+  animation-delay: .5s;
 }
 
 hr.divider-light {

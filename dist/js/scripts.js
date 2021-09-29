@@ -82,6 +82,29 @@ $(function () {
     });
 });
 
+// project animation
+$(function () {
+    let animationName = 'animate__animated animate__fadeInRight'
+    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    $('.projects').on('click', function () {
+        $('.right-col').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+});
+
+$(function () {
+    let animationName = 'animate__animated animate__fadeInLeft'
+    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    $('.projects').on('click', function () {
+        $('.left-col').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+});
+
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
