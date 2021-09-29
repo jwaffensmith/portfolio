@@ -54,8 +54,8 @@ window.addEventListener('DOMContentLoaded', event => {
 // jQuery for Animation.css
 // divider animation for about section
 $(function () {
-    let animationName = 'animate__animated animate__rollIn'
-    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    var animationName = 'animate__animated animate__rollIn'
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('a.about.nav-link').on('click', function () {
         $('.about-divider').addClass(animationName).one(animationEnd, 
         function () {
@@ -72,8 +72,8 @@ $(function () {
 
 // divider animation for contact section
 $(function () {
-    let animationName = 'animate__animated animate__rollIn'
-    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    var animationName = 'animate__animated animate__rollIn'
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.contact').on('click', function () {
         $('.contact-divider').addClass(animationName).one(animationEnd, 
         function () {
@@ -84,8 +84,8 @@ $(function () {
 
 // project animation
 $(function () {
-    let animationName = 'animate__animated animate__fadeInRight'
-    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    var animationName = 'animate__animated animate__fadeInRight'
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.projects').on('click', function () {
         $('.right-col').addClass(animationName).one(animationEnd, 
         function () {
@@ -95,8 +95,8 @@ $(function () {
 });
 
 $(function () {
-    let animationName = 'animate__animated animate__fadeInLeft'
-    let animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+    var animationName = 'animate__animated animate__fadeInLeft'
+    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.projects').on('click', function () {
         $('.left-col').addClass(animationName).one(animationEnd, 
         function () {
@@ -105,10 +105,9 @@ $(function () {
     });
 });
 
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
-
+// Activate SimpleLightbox plugin for portfolio items
+new SimpleLightbox({
+    elements: '#portfolio a.portfolio-box'
+});
 });
 

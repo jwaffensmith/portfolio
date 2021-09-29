@@ -39,6 +39,8 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+         <!-- AOS library -->
+         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -78,7 +80,7 @@
                     <div class="col-lg-8 text-center">
                         <img class="img-fluid" id="headshot"src="assets/jenna2.png" alt="Developer's Photo" />
                         <h2 class="text-white mt-0">About Me</h2>
-                        <hr class="divider about-divider divider-light" />
+                        <hr class="divider about-divider divider-light"  data-aos="flip-right" />
                         <p class="text-white-75 mb-4">Software engineer and former special education teacher with skills in full-stack development, emphasis on Javascript,
                             Python, Express, Django, PostgreSQL, and MongoDB. Passionate about problem solving, collaborating and learning.
                             Seeking opportunities to develop innovative software that makes a meaningful impact on people’s lives.</p>
@@ -149,8 +151,8 @@
                 <div class="container px-4 px-lg-5">
                     <!-- Project One Row-->
                     <div class="row gx-0 mb-5 mb-lg-5 justify-content-center">
-                        <div class="col-lg-6 text-center left-col"><img class="img-fluid" src="assets/hiking-journal.png" alt="Project Photo"/></div>
-                        <div class="col-lg-6 right-col">
+                        <div class="col-lg-6 text-center left-col" data-aos="fade-right" data-aos-duration="2000"><img class="img-fluid" src="assets/hiking-journal.png" alt="Project Photo"/></div>
+                        <div class="col-lg-6 right-col" data-aos="fade-left" data-aos-duration="2000">
                             <div class="text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-left project-description">
@@ -168,8 +170,8 @@
                     </div>
                     <!-- Project Two Row-->
                     <div class="row gx-0 mb-5 mb-lg-5 justify-content-center">
-                        <div class="col-lg-6 right-col"><img class="img-fluid" src="assets/bad-apple.png" alt="Project Photo" /></div>
-                        <div class="col-lg-6 order-lg-first left-col">
+                        <div class="col-lg-6 right-col" data-aos="fade-left" data-aos-duration="2000"><img class="img-fluid" src="assets/bad-apple.png" alt="Project Photo" /></div>
+                        <div class="col-lg-6 order-lg-first left-col" data-aos="fade-right" data-aos-duration="2000">
                             <div class="text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-right project-description">
@@ -187,8 +189,8 @@
                     </div>
                     <!-- Project Three Row-->
                     <div class="row gx-0 mb-5 mb-lg-5  justify-content-center">
-                        <div class="col-lg-6 left-col"><img class="img-fluid" src="assets/project-wayfarer.png" alt="Project Photo" /></div>
-                        <div class="col-lg-6 right-col">
+                        <div class="col-lg-6 left-col" data-aos="fade-right" data-aos-duration="2000"><img class="img-fluid" src="assets/project-wayfarer.png" alt="Project Photo" /></div>
+                        <div class="col-lg-6 right-col" data-aos="fade-left" data-aos-duration="2000">
                             <div class="text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-left project-description">
@@ -206,8 +208,8 @@
                     </div>
                             <!-- Project Four Row-->
                     <div class="row gx-0 mb-5 mb-lg-5  justify-content-center">
-                        <div class="col-lg-6 right-col"><img class="img-fluid" src="assets/plant-tamagotchi.png" alt="Project Photo" /></div>
-                        <div class="col-lg-6 order-lg-first left-col">
+                        <div class="col-lg-6 right-col" data-aos="fade-left" data-aos-duration="2000"><img class="img-fluid" src="assets/plant-tamagotchi.png" alt="Project Photo" /></div>
+                        <div class="col-lg-6 order-lg-first left-col" data-aos="fade-right" data-aos-duration="2000">
                             <div class="text-center h-100 project">
                                 <div class="d-flex h-100">
                                     <div class="project-text w-100 my-auto text-center text-lg-left project-description">
@@ -232,7 +234,7 @@
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8 col-xl-6 text-center">
                         <h2 class="mt-0">Let's Get In Touch.</h2>
-                        <hr class="divider contact-divider" />
+                        <hr class="divider contact-divider" data-aos="flip-right"  />
                         <p class="text-muted mb-5"></p>
                     </div>
                 </div>
@@ -330,5 +332,13 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--AOS library -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+        AOS.init({
+            duration: 3000,
+            once: true,
+        });
+        </script>
     </body>
 </html>

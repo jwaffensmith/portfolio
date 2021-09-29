@@ -1422,6 +1422,7 @@ progress {
     flex: 0 0 auto;
     width: 50%;
     animation-delay: .5s;
+    animation-duration: 2s;
   }
 
   .col-lg-7 {
