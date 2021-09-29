@@ -624,7 +624,13 @@ progress {
 .project-links {
   color: #fff;
   text-decoration: none;
+  font-size: 1.1rem;
 }
+
+.project-links:hover {
+  color: var(--bs-gray-300);
+}
+
 
 .project-description {
   padding: 1rem 0;
