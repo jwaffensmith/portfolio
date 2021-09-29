@@ -53,9 +53,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
 // jQuery for Animation.css
 // divider animation for about section
+var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
 $(function () {
     var animationName = 'animate__animated animate__rollIn'
-    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('a.about.nav-link').on('click', function () {
         $('.about-divider').addClass(animationName).one(animationEnd, 
         function () {
@@ -73,7 +73,6 @@ $(function () {
 // divider animation for contact section
 $(function () {
     var animationName = 'animate__animated animate__rollIn'
-    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.contact').on('click', function () {
         $('.contact-divider').addClass(animationName).one(animationEnd, 
         function () {
@@ -85,7 +84,6 @@ $(function () {
 // project animation
 $(function () {
     var animationName = 'animate__animated animate__fadeInRight'
-    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.projects').on('click', function () {
         $('.right-col').addClass(animationName).one(animationEnd, 
         function () {
@@ -96,7 +94,6 @@ $(function () {
 
 $(function () {
     var animationName = 'animate__animated animate__fadeInLeft'
-    var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
     $('.projects').on('click', function () {
         $('.left-col').addClass(animationName).one(animationEnd, 
         function () {
