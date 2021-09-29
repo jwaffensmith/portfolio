@@ -628,6 +628,11 @@ progress {
 
 .project-description {
   padding: 1rem 0;
+  background: rgba(74, 95, 68, 0.9);
+}
+
+.project-info {
+  padding: 1rem 0;
 }
 
 .project-tech {
@@ -7804,7 +7809,7 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .text-reset {
@@ -7829,7 +7834,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: rgba(74, 95, 68) !important;
+  background-color: rgba(74, 95, 68, 0.7) !important;
 }
 
 .bg-secondary {
@@ -7863,8 +7868,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(33, 37, 41, .8) !important;
 }
 
 .bg-black {
@@ -11350,7 +11354,6 @@ body {
 
 .project-header {
   padding: 3rem 0 1rem 0;
-
 }
 
 #contact {
@@ -11384,7 +11387,7 @@ hr.divider {
   max-width: 3.25rem;
   margin: 1.5rem auto;
   background-color: #f4623a;
-  opacity: 1;
+  opacity: .7;
   animation-duration: 2s;
   animation-delay: .5s;
 }
@@ -11616,10 +11619,6 @@ header.masthead h1, header.masthead .h1 {
     border-width: 0.25rem;
     width: 30%;
   }
-}
-
-.project-description {
-  background: rgba(74, 95, 68);
 }
 
 img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
