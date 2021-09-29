@@ -11549,6 +11549,12 @@ header.masthead h1, header.masthead .h1 {
     animation-iteration-count: 10;
 }
 
+.arrow-icon:hover {
+  animation: bounce;
+  animation-duration: 2s; 
+  animation-iteration-count: 3;
+}
+
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
 }
