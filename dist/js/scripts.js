@@ -52,8 +52,20 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 // jQuery for Animation.css
-// divider animation for about section
 var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
+
+// arrow icon animation 
+$(function () {
+    var animationName = 'animate__animated animate__bounce'
+    $('a.navbar-brand.arrow-event').on('click', function () {
+        $('.arrow-icon').addClass(animationName).one(animationEnd, 
+        function () {
+            $(this).removeClass(animationName);
+        });
+    });
+});
+
+// divider animation for about section
 $(function () {
     var animationName = 'animate__animated animate__rollIn'
     $('a.about.nav-link').on('click', function () {
