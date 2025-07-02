@@ -12,7 +12,7 @@ Project portfolio to showcase featured projects and skills
 
 === Portfolio Website ===
 
-jennawaffensmith.com 
+https://www.jennawaffensmith.com
 
 # Copyright and License 
 (Uses Start Bootstrap templates Creative and Grayscale)
