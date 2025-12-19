@@ -38,18 +38,18 @@
         "url": "https://github.com/StartBootstrap/startbootstrap-creative.git"
     },
     "dependencies": {
-        "bootstrap": "5.1.0"
+        "bootstrap": "5.3.3"
     },
     "devDependencies": {
-        "autoprefixer": "10.3.1",
-        "browser-sync": "2.27.5",
-        "chokidar": "3.5.2",
-        "concurrently": "6.2.0",
-        "postcss": "8.3.6",
-        "prettier": "2.3.2",
-        "pug": "3.0.2",
-        "sass": "1.37.5",
-        "shelljs": "0.8.4",
+        "autoprefixer": "10.4.20",
+        "browser-sync": "3.0.3",
+        "chokidar": "4.0.1",
+        "concurrently": "9.1.0",
+        "postcss": "8.4.49",
+        "prettier": "3.4.2",
+        "pug": "3.0.3",
+        "sass": "1.83.0",
+        "shelljs": "0.8.5",
         "upath": "2.0.1"
     }
 }
